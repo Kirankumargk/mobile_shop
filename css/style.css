@@ -343,24 +343,18 @@ border-color : #fff;
 
 
 
-
-
-
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .left-col-block {
-    width: 80%;
-    padding: 0;
-    position: relative;
-  }
-  .right {
-    width: 100%;
-  }
+@media(max-width: 300px){
+.left-col-block{
+	width: 100%;
+	position: relative;
 }
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .right-col-block {
-    width: 100%;
-    position: relative;
-  }
+
+.right-col-block{
+	width: 100%;
+	position: relative;
 }
+
+
+}
+
+
